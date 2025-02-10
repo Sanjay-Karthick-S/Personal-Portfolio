@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Sanjay Karthick</title>
+    <link rel="stylesheet" href="./personal-portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7pQx2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .projects-container {
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .projects-container h1 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .project-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+
+        .project-card h2 {
+            font-size: 1.8rem;
+            color: #764ba2;
+        }
+
+        .project-card p {
+            font-size: 1.1rem;
+            color: #555;
+            margin: 10px 0;
+        }
+
+        .project-card a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background: #764ba2;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        .project-card a:hover {
+            background: #ffcc00;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="portfolio-container">
+
+        <ul class="navlist">
+            <li><a href="./personal-portfolio-updated.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+
+        <div class="projects-container">
+            <h1>My Projects</h1>
+
+            <div class="project-card">
+                <h2>Garden Irrigation System using IoT</h2>
+                <p>Automated watering system based on real-time data, sensors, and weather integration.</p>
+                
+            </div>
+
+            <div class="project-card">
+                <h2>Face Recognition with ESP32 Camera</h2>
+                <p>Security system that detects and alerts unauthorized access using Python and ESP32.</p>
+                
+            </div>
+
+            <div class="project-card">
+                <h2>Crime Hotspots Prediction</h2>
+                <p>Predicts crime rates using LSTM and K-Means clustering to categorize high and low-risk areas.</p>
+                
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
