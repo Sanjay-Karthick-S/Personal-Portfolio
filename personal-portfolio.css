@@ -6,12 +6,25 @@ body {
     color: #333;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
 .portfolio-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start; 
     min-height: 100vh;
+    /* margin-top: 20px; */
+    /* padding-top: 50px;  */
     text-align: center;
     background: linear-gradient(135deg, #667eea, #764ba2);
     color: white;
@@ -24,15 +37,20 @@ body {
     justify-content: center;
     text-align: center;
     width: 100%;
-    margin-top: 20px;
+    margin: 0; /* Remove unnecessary margins */
+    padding-top: 0;
+    top: 0;
+    left: 0;
 }
+
+
 
 .navlist {
     display: flex;
     justify-content: center;
     gap: 2rem;
     background: rgba(0, 0, 0, 0.3);
-    padding: 1rem;
+    padding: 1rem 0;
     width: 100%;
     position: relative;
     top: 0;
@@ -60,8 +78,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     position: relative;
     border-radius: 50%;
     overflow: hidden;
@@ -96,7 +114,7 @@ body {
     .navlist {
         flex-direction: column;
         align-items: center;
-        padding: 1rem;
+        padding: 1rem 0;
         gap: 1rem;
     }
 
